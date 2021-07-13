@@ -8,14 +8,12 @@ var iconClose = document.querySelector('.icon__close');
 var menuList = document.querySelector('.nav');
 // function to open mobile nav
 iconOpen.addEventListener('click', function () {
-    console.log("clicked");
     menuList.style.left = '0';
     iconOpen.style.display = 'none';
     iconClose.style.display = 'block';
 });
 // function to close mobile nav
 iconClose.addEventListener('click', function () {
-    console.log("clicked");
     menuList.style.left = '-100%';
     iconClose.style.display = 'none';
     iconOpen.style.display = 'block';

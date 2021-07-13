@@ -8,14 +8,12 @@ const iconClose = document.querySelector('.icon__close') as HTMLImageElement;
 const menuList = document.querySelector('.nav') as HTMLElement;
 // function to open mobile nav
 iconOpen.addEventListener('click', ()=>{
-    console.log("clicked");
     menuList.style.left = '0';
     iconOpen.style.display = 'none';
     iconClose.style.display = 'block';
 })
 // function to close mobile nav
 iconClose.addEventListener('click', ()=>{
-    console.log("clicked");
     menuList.style.left = '-100%';
     iconClose.style.display = 'none';
     iconOpen.style.display = 'block';

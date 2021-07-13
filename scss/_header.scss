@@ -112,15 +112,6 @@
                 &:focus{
                     background: unset;
                 }
-                @media(max-width: 858px){
-                    // &:checked ~ ul{
-                    //     left: 0;
-                    //     transition: 300ms;
-                    // }
-                    // &:checked + .checkbtn .close__icon{
-                    //     display: none;
-                    // }
-                }
             }
         }
     }
