@@ -1,10 +1,10 @@
 // variables
 var contactForm = document.querySelector('.form');
-var user = document.querySelector('.name');
-var subject = document.querySelector('.subject');
-var message = document.querySelector('.message');
-var iconOpen = document.querySelector('.icon__open');
-var iconClose = document.querySelector('.icon__close');
+var user = document.querySelector('.form__input--name');
+var subject = document.querySelector('.form__input--subject');
+var message = document.querySelector('.form__input--message');
+var iconOpen = document.querySelector('.header__icon--open');
+var iconClose = document.querySelector('.header__icon--close');
 var menuList = document.querySelector('.nav');
 // function to open mobile nav
 iconOpen.addEventListener('click', function () {

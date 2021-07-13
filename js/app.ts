@@ -1,10 +1,10 @@
 // variables
 const contactForm = document.querySelector('.form');
-const user = document.querySelector('.name') as HTMLInputElement;
-const subject = document.querySelector('.subject') as HTMLInputElement;
-const message = document.querySelector('.message') as HTMLTextAreaElement;
-const iconOpen = document.querySelector('.icon__open') as HTMLImageElement;
-const iconClose = document.querySelector('.icon__close') as HTMLImageElement;
+const user = document.querySelector('.form__input--name') as HTMLInputElement;
+const subject = document.querySelector('.form__input--subject') as HTMLInputElement;
+const message = document.querySelector('.form__input--message') as HTMLTextAreaElement;
+const iconOpen = document.querySelector('.header__icon--open') as HTMLImageElement;
+const iconClose = document.querySelector('.header__icon--close') as HTMLImageElement;
 const menuList = document.querySelector('.nav') as HTMLElement;
 // function to open mobile nav
 iconOpen.addEventListener('click', ()=>{
