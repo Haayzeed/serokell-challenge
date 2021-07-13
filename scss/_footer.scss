@@ -7,7 +7,10 @@ footer{
             display: flex;
             justify-content: space-between;
             border-bottom: 1px solid #999;   
-            padding-bottom: 30px;     
+            padding-bottom: 30px; 
+            @media(max-width: 600px){
+                flex-direction: column;
+            }    
         }
         &--contact{
             ul{
@@ -32,6 +35,7 @@ footer{
             ul{
                 list-style-type: none;
                 margin-left: 30px;
+                
                 li{
                     color: #fff;
                     font-size: 14px;
@@ -43,6 +47,14 @@ footer{
                     }
                 }
             }
+            @media(max-width: 600px){
+                width: 100%;
+                justify-content: space-between;
+                margin-top: 20px;
+                ul{
+                    margin-left: 0;
+                }
+            }
         }
         &--copyright{
             p{
@@ -51,6 +63,11 @@ footer{
                 color: #999;
                 text-align: center;
                 padding: 10px 0;
+            }
+            @media(max-width: 600px){
+                p{
+                    font-size: 12px;
+                }
             }
         }
     }

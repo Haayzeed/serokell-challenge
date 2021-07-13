@@ -23,6 +23,12 @@
         width: 40%;
         padding: 20px;
         background: #000;
+        @media(max-width: 768px){
+            width: 60%;
+        }
+        @media(max-width: 600px){
+            width: 80%;
+        }
         .form{
             &__box{
                 margin-bottom: 10px;
