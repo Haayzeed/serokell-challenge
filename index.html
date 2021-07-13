@@ -14,13 +14,13 @@
     <section class="wrapper">
         <div class="header">
             <!-- menubar -->
-            <div class="header__menu">
-                <nav class="header__menu--content">
+            <div class="header__menu sticky">
+                <div class="header__menu--content ">
                     <!-- Bar Icon -->
-                    <input type="checkbox" name="" id="check">
-                    <label for="check" class="checkbtn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18"><g fill="#fff" fill-rule="evenodd"><path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z"/></g></svg>
-                    </label>
+                    <div class="menu__controller">
+                        <img src="images/icon-hamburger.svg" class="menu__controller--open icon__open" alt="close icon">
+                        <img src="images/icon-close.svg" class="menu__controller--close icon__close" alt="close icon">
+                    </div>
                     <!-- menu -->
                     <div class="logo">SF</div>
                     <ul class="nav">
@@ -29,12 +29,14 @@
                         <li class="nav__item"><a class="nav__link" href="">Gallery</a></li>
                         <li class="nav__item"><a class="nav__link" href="">Contact</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
             <div class="header__body">
                 <h1>serokell <span>furnitures</span> </h1>
-                <a href="">Contact Us</a>
+                <a href="#contact">Contact Us</a>
             </div>
+                <!-- </div> -->
+            <!-- </div> -->
         </div>
     </section>
     <!-- about -->
@@ -67,20 +69,20 @@
     </section>
     <!-- contact -->
     <section class="wrapper">
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="contact__header">
                 <h2>Contact Form</h2>
             </div>
             <div class="contact__form">
                 <form action="" class="form">
                     <div class="form__box">
-                        <input type="text" class="form__input" placeholder="Name">
+                        <input type="text" class="form__input name" placeholder="Name">
                     </div>
                     <div class="form__box">
-                        <input type="text" class="form__input" placeholder="Subject">
+                        <input type="text" class="form__input subject" placeholder="Subject">
                     </div>
                     <div class="form__box">
-                        <textarea name="" class="form__input form__input--large">Message</textarea>
+                        <textarea name="" class="form__input form__input--large message">Message</textarea>
                     </div>
                     <div class="form__box">
                         <button class="form__submit">Submit</button>
@@ -128,5 +130,14 @@
             </div>
         </footer>
     </section>
+    <!-- js function for contact section -->
+    <script src="js/app.js"></script>
+    <script>
+        // const iconClose = document.querySelector('.icon__open');
+        // iconClose.addEventListener('click', ()=>{
+        //     alert("hey");
+        //     console.log("clicked");
+        // })
+    </script>
 </body>
 </html>

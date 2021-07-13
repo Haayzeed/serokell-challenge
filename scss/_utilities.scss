@@ -3,10 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: var(--fontFamily);
+    overflow-x: hidden;
 }
 .wrapper{
-    max-width: 1440px;
-    margin: 0 auto;
+    width: 100vw;
 }
