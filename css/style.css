@@ -116,6 +116,10 @@ body {
     text-align: center;
     transition: all 500ms;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .header__menu--content .nav li {
     display: block;
